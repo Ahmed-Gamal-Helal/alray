@@ -1,0 +1,226 @@
+/********* MIN MEDIA *********/
+@media (min-width:720px) {
+
+}
+@media (min-width:769px) {
+    
+}
+@media (min-width:991px) {
+
+}
+@media (min-width:1024px) {
+
+}
+@media (min-width:1100px) {
+
+}
+/********* END MIN MEDIA *********/
+
+/********* START MAX MEDIA *********/
+@media (max-width:1280px) and (min-width:769px) {
+    .navbar-brand>img {
+        width: 185px;
+        padding-top: 30px;
+    }
+ }
+ 
+ @media (max-width:1200px) {
+    header .contact-information p.welcome {
+        font-size: 11px;
+    }
+ }
+@media (max-width:1100px) {
+    header .contact-information p.welcome {
+        text-align: center;
+    }
+    .high-low img {
+        width: 100%;
+    }
+    .imp-news {
+        width: 100%;
+        a { 
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width:1024px) {
+    .carousel-slider .owl-carousel .owl-item .item img {
+        height: 340px;
+    }
+    .upper-words { 
+        p {
+            font-size: 11px;
+        }
+        .heads-a h5 a {
+            font-size: 14px;
+        }
+        span.eco {
+            font-size: 12px;
+        }
+    }
+    .upper-words 
+    .sponsors {
+        text-align: center; 
+        .social-medias {
+            float: none !important;
+        }
+        .gen-photos {
+            margin-bottom: 2em;
+        }
+    }
+    .social-icons {
+        .social-medias {
+            // top: 75%;
+            left: 0;
+            ul {
+                li {
+                    text-align: right;
+                    border-bottom-right-radius: 15px;
+                    border-top-right-radius: 15px;
+                    border-bottom-left-radius: 0px;
+                    border-top-left-radius: 0px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:991px) {
+    header .contact-information ul.left-side-list {
+        text-align: center;
+    }
+    header .navbar-nav > li > .dropdown {
+        padding: initial;
+    }
+}
+@media (max-width:840px) {
+    .file-adding {
+        margin-top: 2em;
+        width: 50%;
+    }
+}
+@media (max-width:767px) {
+    header .navbar-nav > li.add-news {
+        float: none;
+    } 
+    header .contact-information p.welcome {
+        line-height: 24px;
+        padding-top: 6px;
+    }
+    form .file-adding .input-label img {
+        width: 100%;
+    }
+    header .navbar-nav > li > a, header .navbar-nav > li > .dropdown,header .navbar-nav > li.rounded-flaticon > a {
+        line-height: 2.5;
+    }
+    header nav.navbar{ 
+        &::after {
+            display: none;
+        }
+    }
+    header ul.navbar-nav {
+        margin-top: 60px;
+    }
+    header .navbar-nav > li > a {
+        font-size: 12px;
+    }
+    .navbar-brand>img {
+        display: block;
+        height: 90px;
+        width: auto;
+    }
+    .copyright-part {
+        text-align: center;
+        .container .col-sm-4 p.sec-paragraph {
+            float: none !important;
+        }
+    }
+    .sponsors .logo-paragraph p {
+        font-size: 13px;
+    }
+}
+@media(max-width:407px) {
+    header ul.navbar-nav {
+        margin-top: 0;
+    }
+}
+@media(max-width:600px) {
+    .health .owl-carousel .item img, .sports .owl-carousel .item img, .programs .owl-carousel .item img {
+        height: 250px;
+    }
+    .margin-adjusting {
+        margin: 2em 0;
+    }
+    .edit-side {
+        height: 250px;
+    }
+    .file-adding {
+        width: 100%;
+    }
+    .main-heading-change a {
+        font-size: 12px;
+    }
+    .main-heading-change a.active {
+        font-size:14px;
+    }
+    .news-page-start { 
+        h4 {
+            font-size: 15px;
+        }
+        p {
+            font-size: 12px;
+        }
+    }
+}
+@media(max-width:384px) {
+
+}
+@media (max-width:380px) {
+
+    header { 
+        .contact-information  { 
+            ul.right-side-list {
+                text-align: center;
+                li {
+                    display: block;
+                    margin-bottom: .5em;
+                }
+                .dropdown-menu {
+                    right: 0;
+                    left: 0;
+                    float: left;
+                    text-align: center;
+                }
+            }
+            ul.left-side-list {
+                text-align: center;
+            }
+        }
+        .navbar-nav > li > a {
+            line-height: 2;
+        }
+        .navbar-nav {
+            margin: 0;
+        }
+        ul.navbar-nav {
+            // margin-top: 0;
+        }
+    }
+}
+@media (max-width:375px) {
+    .navbar-brand > img {
+        padding-top: 18px;
+    }
+    .carousel-slider .owl-carousel .owl-item .item img {
+        height: 230px;
+    }
+}
+@media (max-width:360px) {
+
+}
+@media (max-width:320px) {
+    
+}
+/********* End MAX MEDIA *********/
